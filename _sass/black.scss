@@ -1,3 +1,27 @@
 /*
     Black color scheme
 */
+
+html, body {
+    background-color: #2F2F2F;
+}
+
+.header {
+    a {
+        color: #09c;
+        &:hover {
+            color: #FFF;
+        }
+    }
+}
+
+.post {
+    background-color: #3C3C3C;
+    color: #999;
+    a {
+        color: #ccc;
+        &:hover {
+            color: #F90;
+        }
+    }
+}
