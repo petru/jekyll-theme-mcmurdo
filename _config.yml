@@ -1,0 +1,43 @@
+# Site Info
+title:              "McMurdo"
+description:        "A simple Jekyll theme focused on content"
+author_name:        "" # change this to your name
+
+url:                https://petrumadar.com/mcmurdo # main url
+baseurl:            
+permalink:          :title # Post permalink
+timezone:           Europe/Bucharest # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            false  # enables support for mathjax - set to 'false' to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
+  - jekyll-sitemap
+
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+layout: "post"
