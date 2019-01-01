@@ -14,8 +14,8 @@ highlighter:        rouge
 markdown:           kramdown
 kramdown:
     input:          GFM
-sass:
-    style:          :compressed
+#sass:
+#    style:          :compressed
 
 # Other Params
 include:            [ "robots.txt" ]
