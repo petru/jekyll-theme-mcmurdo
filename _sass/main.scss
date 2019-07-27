@@ -8,12 +8,11 @@ body {
     line-height: 1.5rem;
 }
 
-.post, .header {
-    width: 43.5rem;
-    position: relative;
+.wrapper {
+    max-width: 43.5rem;
+    margin: 4.6rem auto;
 }
 .header {
-    margin: 4.6rem auto;
     padding: 0;
     h1 {
         padding: 0;
@@ -29,14 +28,14 @@ body {
 }
 .post {
     margin: 4.6rem auto;
-    padding: 2.7rem;
+    padding: 2.7rem 3rem 2.7rem 2.7rem;
     p {
         margin: 1rem 0;
     }
     img {
         display: block;
-        margin: 2rem auto;
-        max-width: 40.8rem;
+        margin: 2rem 2.7rem 2rem auto;
+        max-width: 100%;
     }
     pre, blockquote {
         margin: 2rem;
