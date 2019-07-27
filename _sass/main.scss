@@ -21,4 +21,15 @@ body {
         margin: 2rem auto;
         max-width: 40.8rem;
     }
+    pre, blockquote {
+        margin: 2rem;
+        padding: .1rem 1.5rem;
+        position: relative;
+    }
+    h1,h2,h3,h4 {
+        font-weight: normal;
+        a {
+            text-decoration: none;
+        }
+    }
 }
