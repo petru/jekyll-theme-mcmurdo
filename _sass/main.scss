@@ -91,4 +91,13 @@ body {
         font-size: 0.8rem;
         padding-left: .3rem;
     }
+    table {
+        width: 100%;
+    }
+    th {
+        background-color: $bg;
+    }
+    td,th {
+        padding: .7rem;
+    }
 }
