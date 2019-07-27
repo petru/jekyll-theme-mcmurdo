@@ -28,4 +28,11 @@ html, body {
     img {
         border: 5px solid #fff;
     }
+    pre, blockquote {
+        background: #2F2F2F;
+    }
+    strong {
+        color: #ccc;
+        text-shadow: 0 0 1px #ccc;
+    }
 }
