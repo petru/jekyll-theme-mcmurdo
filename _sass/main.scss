@@ -8,11 +8,28 @@ body {
     line-height: 1.5rem;
 }
 
-.post {
+.post, .header {
     width: 43.5rem;
+    position: relative;
+}
+.header {
+    margin: 4.6rem auto;
+    padding: 0;
+    h1 {
+        padding: 0;
+        font-weight: normal;
+        a {
+            text-decoration: none;
+        }
+    }
+    p {
+        line-height: .1rem;
+        font-size: .8rem;
+    }
+}
+.post {
     margin: 4.6rem auto;
     padding: 2.7rem;
-    position: relative;
     p {
         margin: 1rem 0;
     }
@@ -31,5 +48,15 @@ body {
         a {
             text-decoration: none;
         }
+    }
+    a.reversefootnote {
+        text-decoration: none;
+    }
+    time {
+        position: relative;
+        top: 1.5rem;
+        float: right;
+        font-size: 0.8rem;
+        padding-left: .3rem;
     }
 }
