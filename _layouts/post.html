@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-
-<section>
     <article class="post">
+        <time datetime="{{ page.date | date: "%Y-%m-%e" }}">{{ page.date | date_to_long_string: "ordinal", "US" }}</time>
+        <h2>
+            <a href="{{ page.url }}">
+                {{ page.title }}
+            </a>
+        </h2>
         {{ content }}
     </article>
-</section>
