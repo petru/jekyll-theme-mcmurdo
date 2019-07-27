@@ -6,8 +6,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
     line-height: 1.5rem;
+    background-color: $bg;
+    
 }
-
 .wrapper {
     max-width: 43.5rem;
     margin: 4.6rem auto;
@@ -18,6 +19,10 @@ body {
         padding: 0;
         font-weight: normal;
         a {
+            color: $link-header;
+            &:hover {
+                color: $link-header-hover;
+            }
             text-decoration: none;
         }
     }
@@ -25,22 +30,40 @@ body {
         line-height: .1rem;
         font-size: .8rem;
     }
+    .tagline {
+        color: $text;
+    }
 }
 .post {
     margin: 4.6rem auto;
     padding: 2.7rem 3rem 2.7rem 2.7rem;
+    background-color: $bg-post;
+    border: 1px solid $border-post;
+    color: $text;
     p {
         margin: 1rem 0;
+    }
+    a {
+        color: $link;
+        &:hover {
+            color: $link-hover;
+        }
     }
     img {
         display: block;
         margin: 2rem 2.7rem 2rem auto;
         max-width: 100%;
+        border: 5px solid $border-img;
+    }
+    strong {
+        color: $text-strong;
+        text-shadow: 0 0 1px $text-strong;
     }
     pre, blockquote {
         margin: 2rem;
         padding: .1rem 1.5rem;
         position: relative;
+        background: $bg;
     }
     h1,h2,h3,h4 {
         font-weight: normal;

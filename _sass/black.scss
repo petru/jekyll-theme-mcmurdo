@@ -1,41 +1,13 @@
 /*
     Black color scheme
 */
-
-html, body {
-    background-color: #2F2F2F;
-}
-
-.header {
-    a {
-        color: #09c;
-        &:hover {
-            color: #FFF;
-        }
-    }
-    .tagline {
-        color: #999;
-    }
-}
-
-.post {
-    background-color: #3C3C3C;
-    color: #999;
-    border: 1px solid #3C3C3C;
-    a {
-        color: #ccc;
-        &:hover {
-            color: #F90;
-        }
-    }
-    img {
-        border: 5px solid #fff;
-    }
-    pre, blockquote {
-        background: #2F2F2F;
-    }
-    strong {
-        color: #ccc;
-        text-shadow: 0 0 1px #ccc;
-    }
-}
+$bg: #2F2F2F;
+$bg-post: #3C3C3C;
+$border-post: $bg-post;
+$border-img: #fff;
+$link-header: #09c;
+$link-header-hover: #FFF;
+$link: #CCC;
+$link-hover: #F90;
+$text: #999;
+$text-strong: #ccc;
