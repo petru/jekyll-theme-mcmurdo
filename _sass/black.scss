@@ -18,10 +18,14 @@ html, body {
 .post {
     background-color: #3C3C3C;
     color: #999;
+    border: 1px solid #3C3C3C;
     a {
         color: #ccc;
         &:hover {
             color: #F90;
         }
+    }
+    img {
+        border: 5px solid #fff;
     }
 }
