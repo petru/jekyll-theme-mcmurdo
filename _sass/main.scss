@@ -70,6 +70,7 @@ body {
         font-size: .7rem;
         line-height: 1.2rem;
         background: $bg-code;
+        overflow: auto;
     }
     code.highlighter-rouge {
         background: $bg-inline-code;
