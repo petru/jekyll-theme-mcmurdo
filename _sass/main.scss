@@ -104,3 +104,38 @@ body {
         padding: .3rem;
     }
 }
+.footer {
+    a {
+        color: $link;
+        &:hover {
+            color: $link-hover;
+        }
+        text-decoration: none;
+    }
+    .left, .right {
+        color: $text;
+        p {
+            margin: .1rem 0;
+        }
+        margin-bottom: 3rem;
+        
+        //border: 1px solid red;
+    }
+    .right {
+        margin-left: 1rem;
+        float: left;
+        width: 48%;
+    }
+    .left {
+        width: 48%;
+        float: left;
+    }
+    .copy {
+        clear: both;
+        padding-top: 0.5rem;
+        //margin: 1rem;
+        color: $text;
+        border-top: 1px solid $text;
+        font-size: 0.8rem;
+    }
+}
