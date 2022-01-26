@@ -9,7 +9,7 @@ There are three color schemes available:
 * white
 * midnight 
 
-You can change the theme by modifying the import in `assets/core.css`.
+You can change the theme by modifying the import in `assets/core.scss`.
 
 Here's a screenshot of the dark theme:
 
