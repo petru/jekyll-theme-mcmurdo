@@ -3,4 +3,3 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 Gemfile.lock
-_posts/*-test*.md
