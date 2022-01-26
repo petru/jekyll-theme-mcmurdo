@@ -5,6 +5,7 @@ Gem::Specification.new do |spec|
 	spec.email         = ["petru@mdr.sh"]
 
 	spec.summary       = "A simple Jekyll theme focused on content"
+	spec.description   = "McMurdo is a simple Jekyll theme based on the Vostok theme for WordPress"
 	spec.homepage      = "https://github.com/petru/jekyll-theme-mcmurdo"
 	spec.license       = "MIT"
 
