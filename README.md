@@ -4,4 +4,4 @@
 
 There used to be a time when websites were not all fancy slideshows, 36px fonts and endless scrolling.
 
-More updates soon!
+![McMurdo screenshot](mcmurdo.png)
