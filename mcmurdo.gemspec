@@ -2,10 +2,10 @@ Gem::Specification.new do |spec|
 	spec.name          = "mcmurdo"
 	spec.version       = "1.0.1"
 	spec.authors       = ["Petru Madar"]
-	spec.email         = ["hello@petrumadar.com"]
+	spec.email         = ["petru@mdr.sh"]
 
 	spec.summary       = "A simple Jekyll theme focused on content"
-	spec.homepage      = "https://github.com/petru/mcmurdo"
+	spec.homepage      = "https://github.com/petru/jekyll-theme-mcmurdo"
 	spec.license       = "MIT"
 
 	spec.metadata["plugin_type"] = "theme"
